@@ -1,0 +1,44 @@
+.heading {
+	display: flex;
+}
+
+.heading button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	outline: none;
+	font-weight: 500;
+	/* font-size: 4vw; */
+}
+
+.heading_name,
+.heading_population {
+	flex: 1;
+	padding: 19px;
+	color: var(--text-secondary);
+}
+
+.heading_name {
+	text-align: left;
+}
+
+.row {
+	display: flex;
+	padding: 20px;
+
+	text-align: center;
+
+	background-color: var(--bg-color-light);
+	border-radius: 9px;
+	margin-bottom: 13px;
+	box-shadow: var(--box-shadow);
+}
+
+.population {
+	flex: 1;
+}
+
+.name {
+	flex: 1;
+	text-align: left;
+}
